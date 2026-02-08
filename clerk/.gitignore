@@ -1,0 +1,26 @@
+node_modules
+dist
+build
+coverage
+.env
+.DS_Store
+.idea
+.vscode
+*.log
+*.tsbuildinfo
+package-lock.json
+yarn.lock
+lerna-debug.log
+```
+# Ignore all files in the packages directory
+/packages/*
+# Except for the package.json files
+!/packages/*/package.json
+# Ignore all files in the apps directory
+/apps/*
+# Except for the package.json files
+!/apps/*/package.json
+# Ignore all files in the examples directory
+/examples/*
+# Except for the package.json files
+!/examples/*/package.json
